@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Projets codes\JavaProjetFeu\dist\JavaProjetFeu.jar</jar>
+  <outfile>C:\Projets codes\JavaProjetFeu exe\Feu_de_foret.exe</outfile>
+  <errTitle>Installer java</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Martin\Downloads\menu1.ico</icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.5</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>https://github.com/Martin-Prevost</txtFileVersion>
+    <fileDescription>Simulation de feu de foret</fileDescription>
+    <copyright>Martin Prévost &amp; Baptiste Prévost</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>https://github.com/Martin-Prevost</txtProductVersion>
+    <productName>Simulateur de feu de foret</productName>
+    <companyName></companyName>
+    <internalName>Forest fire simulation</internalName>
+    <originalFilename>Feu_de_foret.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>FRENCH</language>
+  </versionInfo>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <bundledJreErr>This application requires a Java Runtime Environment.</bundledJreErr>
+    <jreVersionErr>This application requires a Java Runtime Environment</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
