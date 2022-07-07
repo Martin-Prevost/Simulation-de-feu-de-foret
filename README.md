@@ -1,1 +1,1 @@
-# Simulateur de feu de foret
+# Simulation de feu de foret
